@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-2</title>
+    <link href="gp5-pj2.css" rel="stylesheet" type="text/css"/>
+    <link href="fontawesomepro/css/all.min.css" rel="stylesheet" type="text/css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap');
+        .menu{
+            z-index: 100;
+        }
+        .bodyone{
+            width: 100%;
+            height: 350px;
+            background-image:url("img/gp6/beach15.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+            
+        }
+        .bodyone .text{
+            /* background-color: green; */
+            text-align: center;
+            padding-top: 50px;
+            margin: 0 350px;
+            line-height: 2;
+            color: rgb(240, 121, 190);
+            text-shadow:2px 2px 1px black;
+        }
+        .btn1,.btn2{
+            
+            padding:10px;
+            background-color:rgb(9, 46, 125);
+            border:none;
+            transition: all 1s; ease-in-out;
+            position: relative;
+            left: 600px;
+            top:20px;
+            margin-right: 10px;
+            color: wheat;
+
+        }
+        .btn1:hover{
+            transform: scale(0.98);
+            background-color: brown;
+            color: white;
+            border-radius: 20px;
+
+        }
+        .btn2:hover{
+            transform: scale(0.98);
+            background-color: brown;
+            color: white;
+            border-radius: 20px;
+
+        }
+        .library{
+            width: 250px;
+            line-height: 50px;
+            padding:5px;
+            background-image:linear-gradient(190deg, rgb(75, 25, 25) 50%,rgb(196, 138, 32) 30%);
+            color: white;
+            text-align: center;
+            position: relative;
+            top:80px;
+            font-size: 25px;
+            
+            border-radius:0 60px 0 60px;
+            box-shadow:2px 2px 3px  black;
+            text-shadow: 2px 3px 2px black;
+            
+
+        }
+        .divone{
+            width: 100%;
+            height: 160px;
+           
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .divone .left1,.left2,.right1,.right2{
+            width: 23%;
+            height: 150px;
+            font-family: 'Stick No Bills', sans-serif;
+            font-weight: bold;
+            box-shadow: 2px 3px 2px black;
+            /* background-color: cadetblue; */
+        }
+        .divone .icon{
+            font-size: 30px;
+            color: darkgoldenrod;
+
+        }
+        .divone span{
+            font-size: 25px;
+
+        }
+        .divone p{
+            padding-top: 10px;
+            padding-right: 30px;
+            text-align: justify;
+        }
+        .libraryedit{
+            width: 250px;
+            line-height: 50px;
+            padding:5px;
+            background-image:linear-gradient(190deg, rgb(75, 25, 25) 50%,rgb(196, 138, 32) 30%);
+            color: white;
+            text-align: center;
+            position: relative;
+            top:10px;
+            font-size: 25px;
+            
+            border-radius:0 60px 0 60px;
+            box-shadow:2px 2px 3px  black;
+            text-shadow: 2px 3px 2px black;
+            
+
+        }
+        
+        
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <nav class="menu">
+            <div class="navleft">
+               
+                <img src="img/galaxy.jpg" alt="logo" class="logo"/> <b class="text">Galaxy Star</b>
+                <h4>Travel Agency Co.ltd;</h4>
+                
+
+            </div>
+            <div class="navright">
+               
+                    <li><a href="index.html" class="v">Home</a></li>
+                    <li class="dropdown"><a class="v" href="#" class="dropbtn">Packages <i class="fas fa-angle-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#"> Local trip</a>
+                            <a href="#">
+                                Islands
+                            </a>
+                            <a href="#">
+                                Latin American
+                            </a>
+                            <a href="#">Euroan </a>
+                            <a href="#">Asean </a>
+                          </div>
+                    
+                    </li>
+                    <li><a class="v"href="#">Definations</a></li>
+                    <li><a class="v" href="gp5-pjsub6.html">Library</a></li>
+                    <li><a class="v" href="gp5-pjsub3.html">Hotel</a></li>
+                    <li class="dropdown"><a class="v"  href="#" class="dropbtn">Info <i class="fas fa-angle-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                    
+                    </li>
+                    <li><a class="v" href="gp5-pjsub4.html">About Us</a></li>
+                    <li><a class="v" href="gp5-pjsub5.html">Contact</a></li>
+               
+
+            </div>
+
+        </nav>
+        <div class="bodyone">
+            <div class="text">
+                <h4>Welcome to Galaxy Star</h4>
+                <h1>Currenting Famous Visiting Place</h1>
+                <p>Every can choose one of the option of our service and then you can book and ask about your travel location. Our agency responsive is so faster than that you though.</p>
+            </div>
+            <button class="btn1">Join Us Now</button>
+            <button class="btn2">View More</button>
+            <div class="library">Local famous place</div>
+           
+    
+    
+        </div>
+        <div class="divone">
+            <div class="left1">
+                <img src="img/shwedagon.jpg" alt="sh" width="100%" height="150px"/>
+            </div>
+            <div class="left2">
+                <i class="fad fa-vihara icon"></i><span> Shwedagon pagoda</span>
+               <p>The Shwedagon is the most sacred Buddhist pagoda in Myanmar, as it is believed to contain relics of the four previous Buddhas of the present kalpa </p>
+               <input type="submit" name="submit" value="see more"/>
+
+            </div>
+            <div class="right1">
+                <img src="img/inlaylake.jpg" alt="sh" width="100%" height="150px"/>
+            </div>
+            <div class="right2">
+                <i class="fad fa-water icon"></i>
+                <span> Inlay Lake</span>
+               <p>Inlay Lake Wetland Sanctuary is a protected area in Myanmar's Shan State, covering an area of 533.73 km2 (206.07 sq mi) surrounding Inle Lake.
+                </p>
+                <input type="submit" name="submit" value="see more"/>
+                
+            </div>
+        </div>
+        <div class="divone">
+            <div class="left1">
+                <img src="img/popa.jpg" alt="sh" width="100%" height="150px"/>
+            </div>
+            <div class="left2">
+                <i class="fad fa-volcano icon"></i><span> Mount Popa</span>
+               <p>Kyaiktiyo Pagoda is a popular pilgrim site among Buddhists. It is the second most important pilgrim site of all Myanmar and its importance is even recognized  </p>
+               <input type="submit" name="submit" value="see more"/>
+
+            </div>
+            <div class="right1">
+                <img src="img/ngapli.jpg" alt="sh" width="100%" height="150px"/>
+            </div>
+            <div class="right2">
+                <i class="fal fa-umbrella-beach icon"></i>
+                <span> Ngapli Beach</span>
+               <p>Ngapali Beach is a rarely visited sliver of Myanmar, isolated from the rest of the country by a mountain range. Located on the western shore, it's a long
+                </p>
+                <input type="submit" name="submit" value="see more"/>
+                
+            </div>
+        </div>
+        <div class="libraryedit">Global famous place</div>
+        <div class="divone">
+            <div class="left1">
+                <img src="img/pyramid.jpg" alt="sh" width="100%" height="150px"/>
+            </div>
+            <div class="left2">
+                <i class="far fa-triangle icon"></i><span> Pyramid</span>
+               <p>The Great Pyramid of Giza is the oldest and largest of the pyramids in the Giza pyramid complex bordering present-day Giza in Greater Cairo, Egypt. </p>
+               <input type="submit" name="submit" value="see more"/>
+
+            </div>
+            <div class="right1">
+                <img src="img/brazil.png" alt="sh" width="100%" height="150px"/>
+            </div>
+            <div class="right2">
+                <i class="fal fa-monument icon"></i>
+                <span> Christ the Redeemer</span>
+               <p>Christ the Redeemer, colossal statue of Jesus Christ at the summit of Mount Corcovado, Rio de Janeiro, Brazil. It was completed in 1931 and stands 98 feet
+                </p>
+                <input type="submit" name="submit" value="see more"/>
+                
+            </div>
+        </div>
+        <div class="divone">
+            <div class="left1">
+                <img src="img/fall.jpg" alt="sh" width="100%" height="150px"/>
+            </div>
+            <div class="left2">
+                <i class="fal fa-hiking icon"></i><span> Niagara Falls</span>
+               <p>Niagara Falls is a city in Niagara County, New York, United States. As of the 2020 census, the city had a total population of 48,671. </p>
+               <input type="submit" name="submit" value="see more"/>
+
+            </div>
+            <div class="right1">
+                <img src="img/paris.jpg" alt="sh" width="100%" height="150px"/>
+            </div>
+            <div class="right2">
+                <i class="far fa-gopuram icon"></i>
+                <span>Eiffel Tower</span>
+               <p>Eiffel Tower, Parisian landmark that is also a technological masterpiece in building-construction history. The tower itself is 300 meters (984 feet) high
+                </p>
+                <input type="submit" name="submit" value="see more"/>
+                
+            </div>
+        </div>
+        <div class="divone">
+            <div class="left1">
+                <img src="img/gratewall.jpg" alt="sh" width="100%" height="150px"/>
+            </div>
+            <div class="left2">
+                <i class="fal fa-hiking icon"></i><span> Niagara Falls</span>
+               <p>Niagara Falls is a city in Niagara County, New York, United States. As of the 2020 census, the city had a total population of 48,671. </p>
+               <input type="submit" name="submit" value="see more"/>
+
+            </div>
+            <div class="right1">
+                <img src="img/dubai1.jpg" alt="sh" width="100%" height="150px"/>
+            </div>
+            <div class="right2">
+                <i class="far fa-building icon"></i>
+                <span> Dubai</span>
+               <p>Dubai is situated on the Persian Gulf coast of the United Arab Emirates and is roughly at sea level (16 m or 52 ft above). The emirate of Dubai shares borders 
+                </p>
+                <input type="submit" name="submit" value="see more"/>
+                
+            </div>
+        </div>
+        <div class="divone">
+            <div class="left1">
+                <img src="img/landon.jpg" alt="sh" width="100%" height="150px"/>
+            </div>
+            <div class="left2">
+                <i class="fal fa-store icon"></i><span> London</span>
+               <p>The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom (UK) or Britain, is a sovereign country in north-western .. </p>
+               <input type="submit" name="submit" value="see more"/>
+
+            </div>
+            <div class="right1">
+                <img src="img/indo.jpg" alt="sh" width="100%" height="150px"/>
+            </div>
+            <div class="right2">
+                <i class="fal fa-gopuram icon"></i>
+                <span>Besakih Temple</span>
+               <p>Besakih Temple is the largest and holiest temple in all of Bali. Commonly known as the “Mother Temple,” it is located on the slopes of Mount Agung in the eastern part of the island.
+                </p>
+                <input type="submit" name="submit" value="see more"/>
+                
+            </div>
+        </div>
+
+
+    </div>
+    
+</body>

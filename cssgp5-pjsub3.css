@@ -1,0 +1,198 @@
+.maindiv{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+
+.section1 h2{
+    
+    padding: 5px;
+    position: relative;
+    border-radius: 250px 0 0 250px;
+    animation-name: up;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    z-index: 5;
+   
+    
+}
+.section1 .maindiv .card1{
+    width: 20%;
+    height: 200px;
+    background-color: rgb(217, 49, 117);
+    position: relative;
+    text-align: justify;
+    margin-bottom: 5px;
+
+    
+   
+}
+.section1 .maindiv .card1 .img{
+    width: 100%;
+}
+.section1 .maindiv .card1 .content p{
+    visibility: hidden;
+    position: relative;
+    top:-80px;
+    color: white;
+    margin: 0 10px;
+   
+
+
+}
+.section1 .maindiv .card1:hover{
+    columns: blue;
+    height: 250px;
+    transition: 0.5s;
+    background-image: radial-gradient(red,green,blue);
+    z-index: 100;
+
+   
+}
+.section1 .maindiv .card1 .icon{
+    cursor: pointer;
+    margin-left: 60px;
+    margin-right: 20px;
+  
+}
+
+.section1 .maindiv .card1:hover p{
+    visibility: visible;
+    top:0;
+    z-index: 100;
+  
+}
+.section1 .maindiv .card1 .star{
+    color: white;
+   
+}
+@keyframes up{
+    0% {color: green;left:0; top:0;
+        background-color: indianred;
+       z-index: -1;
+
+    }
+    25%{
+        color: orange;left:500px;top:0;
+        background-color: khaki;
+        z-index: -1;
+        
+    }
+    50%{
+        color: blue;left: 1300px; top:0;
+        background-color: lightgrey;
+        z-index: -1;
+    }
+    75%{
+        color: hotpink;left:500px; top:0;
+        background-color: lightseagreen;
+        z-index: -1;
+    }
+
+    100%{
+        color: red;left:0;top:0;
+        background-color: lightslategrey;
+        z-index: -1;
+    }
+}
+/* section=2 */
+.section2 h2{
+    
+    padding: 5px;
+    position: relative;
+    
+    animation-name: upp;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    z-index: 5;
+    
+}
+.section2 .maindiv .card1{
+    width: 20%;
+    height: 200px;
+    background-color: rgb(242, 201, 77);
+    position: relative;
+    text-align: justify;
+    margin-bottom: 5px;
+
+    
+   
+}
+.section2 .maindiv .card1 .img{
+    width: 100%;
+}
+.section2 .maindiv .card1 .content p{
+    visibility: hidden;
+    position: relative;
+    top:-80px;
+    color: white;
+    margin: 0 10px;
+   
+
+
+}
+.section2 .maindiv .card1:hover{
+    columns: blue;
+    height: 250px;
+    transition: 0.5s;
+    background-image: radial-gradient(red,green,blue);
+
+   
+}
+.section2 .maindiv .card1 .icon{
+    cursor: pointer;
+    margin-left: 60px;
+    margin-right: 20px;
+  
+}
+
+.section2 .maindiv .card1:hover p{
+    visibility: visible;
+    top:0;
+    z-index: 90;
+  
+}
+.section2 .maindiv .card1 .star{
+    color: white;
+   
+}
+@keyframes upp{
+    0% {color: rgb(0, 70, 128);left:0; top:0;
+        background-color: rgb(228, 201, 201);
+       z-index: -1;
+
+    }
+    25%{
+        color: rgb(128, 29, 209);left:500px;top:0;
+        background-color: rgb(207, 115, 135);
+        z-index: -1;
+        
+    }
+    50%{
+        color: rgb(207, 150, 26);left: 1300px; top:0;
+        background-color: rgb(68, 131, 84);
+        z-index: -1;
+    }
+    75%{
+        color: rgb(35, 187, 81);left:500px; top:0;
+        background-color: rgb(170, 114, 145);
+        z-index: -1;
+    }
+
+    100%{
+        color: rgb(82, 39, 39);left:0;top:0;
+        background-color: rgb(83, 116, 204);
+        z-index: -1;
+    }
+}
+
+
+
+
+

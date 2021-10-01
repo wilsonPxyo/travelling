@@ -1,0 +1,104 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image:conic-gradient(
+        green 10%,
+        red 0 20%,
+        blue 0 30%,
+        pink 0 40%,
+        gray 0 50%,
+        black 0 60%,
+        brown 0 70%,
+        gold 0 80%,
+        navy 0 90%,
+        hotpink 0 100%
+    );
+    animation-name: wpp;
+    animation-duration: 
+    15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.div2{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    background-image:conic-gradient(
+        green,blue, hotpink,brown,gray, gold,navy,black);
+        animation-name: upl;
+        animation-duration: 
+        20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+   
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image:conic-gradient(
+        green 10%,
+        red 0 20%,
+        blue 0 30%,
+        pink 0 40%,
+        gray 0 50%,
+        black 0 60%,
+        brown 0 70%,
+        gold 0 80%,
+        navy 0 90%,
+        hotpink 0 100%
+    );
+    animation-name: wpp;
+    animation-duration: 
+    15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image:conic-gradient(
+        green 10%,
+        red 0 20%,
+        blue 0 30%,
+        pink 0 40%,
+        gray 0 50%,
+        black 0 60%,
+        brown 0 70%,
+        gold 0 80%,
+        navy 0 90%,
+        hotpink 0 100%
+    );
+    animation-name: wpp;
+    animation-duration: 
+    15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wpp{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
+}
+@keyframes upl{
+    from{
+        transform: rotate(3600deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+
+}

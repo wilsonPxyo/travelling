@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+.table{
+   
+    width: 100%;
+    height: 100vh;
+   
+}
+.table .reg{
+    width: 100%;
+    line-height: 90px;
+    border-radius: 32px 32px 0 0;
+    background-image: linear-gradient(-230deg,rgb(217, 49, 117) 50%,rgb(221, 161, 217) 10%);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.table .reg .regi,.login{
+    font-size: 30px;
+    
+}
+
+.table .divleft{
+    width: 50%;
+    height: 400px;
+    background-image:url("img/register.jpg");
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.lefttabel{
+    width: 60%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Nova Cut', cursive;
+    /* background-color: green; */
+}
+
+.divleft label{
+    display: block;
+    font-size: 20px;
+    color:rgb(217, 49, 117);
+    text-shadow: 2px -2px 1px burlywood;
+    opacity: 1;
+
+}
+.lefttabel .group-form{
+    width: 90%;
+    padding: 5px;
+    outline: 0;
+    box-shadow: 3px 2px 2px gray;
+    font-family: 'Nova Cut', cursive;
+}
+.lefttabel .group-form::placeholder{
+    color: rgb(9, 46, 125);
+    opacity: 0.6;
+}
+.lefttabel p{
+    padding:15px 0;
+    color: goldenrod;
+    text-shadow: 2px -2px 1px red;
+}
+.lefttabel .btn{
+    width: 100px;
+    padding:5px;
+    font-family: 'Nova Cut', cursive;
+    border-radius: 12px;
+    background-color: rgb(217, 49, 117);
+    color: rgb(191, 170, 170);
+    outline: 0;
+    
+}
+.divleft .logo{
+    width: 30%;
+    float: left;
+    /* background-color: red; */
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+/* right */
+.table .divright{
+    width: 50%;
+    height: 400px;
+    background-image: url("img/bg8.png");
+    float: left;
+   
+    
+}
+.divright p{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: 'Nova Cut', cursive;
+    text-shadow: 2px -2px 1px rgb(238, 184, 14);
+
+}
+.divright .left{
+    width: 40%;
+    margin-left: 30px;
+    /* background-color: red; */
+    float: left;
+}
+.divright .left label{
+    font-family: 'Nova Cut', cursive;
+    display: block;
+    color: black;
+    font-size: 20px;
+    text-shadow: 2px -2px 1px rgb(252, 232, 230); 
+}
+.divright .left .group-form{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-family: 'Nova Cut', cursive;
+    box-shadow: 2px 2px 2px navy;
+    outline: 0;
+}
+.divright .left .login{
+    margin-top: 80px;
+    
+}
+.divright .left b{
+    font-family: 'Nova Cut', cursive;
+    font-size: 20px;
+    text-shadow: 2px -2px 1px rgb(252, 232, 230);
+    
+}
+.divright .left .btn{
+    padding: 5px;
+    width: 100px;
+    font-family: 'Nova Cut', cursive;
+    border-radius: 12px;
+    background-color: rgb(217, 49, 117);
+    color: rgb(191, 170, 170);
+    outline: 0;
+}
+.divright .right{
+    width: 50%;
+    /* background-color: green; */
+    float: left;
+}
+.divright .right .logo{
+    width: 80%;
+    height: 150px;
+    align-items: center;
+}
+.divright .right .forgot{
+    font-family: 'Nova Cut', cursive;
+    margin-left: 50px;
+    padding-top: 110px;
+    
+}
+.divright .right .forgot a{
+    color: black;
+    text-shadow: 2px -2px 1px rgb(252, 232, 230);
+    font-size: 20px;
+}

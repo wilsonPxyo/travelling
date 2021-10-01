@@ -1,0 +1,80 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/bg1.png");
+}
+.main .up{
+    width: 100%;
+    line-height: 50px;
+    background-color: teal;
+    text-align: center;
+    color: white;
+}
+.main .landr{
+    width: 90%;
+    background-color: green;
+    margin: auto;
+}
+.main .landr .left{
+    width: 25%;
+    height: 500px;
+    background-color: yellow;
+    float: left;
+    text-align: center;
+}
+.main .landr .left  li a{
+   text-decoration: none;
+   color:black;
+
+
+}
+.main .landr .left ul{
+    margin-left: 50px;
+}
+.main .landr .left  li{
+    width: 70%;
+    margin-top: 10px;
+    background-color: lightslategrey;
+    list-style: none;
+    
+}
+
+.main .landr .left  li:hover{
+    color: lightyellow;
+    background-color: rgb(28, 156, 234);
+}
+.main .landr .left  li:hover a{
+    color: lightyellow;
+
+    
+}
+
+
+
+
+.main .landr .right{
+    width: 75%;
+    height: 500px;
+    background-color: violet;
+    float: left;
+}
+.main .landr .right .text{
+    text-align: justify;
+    margin: 5px 20px;
+}
+.main .landr .right .text .title{
+    text-align: center;
+}
+.main .landr .right .text h3{
+    color:rgb(217, 49, 117);
+    display: inline;
+    font-size: 30px;
+    padding-right: 10px;
+}
+.main .landr .right .text .hand{
+   
+    color: rgb(61, 90, 152);
+    font-size: 35px;
+    color: rgb(16, 39, 247);
+    
+}

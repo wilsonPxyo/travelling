@@ -1,0 +1,146 @@
+/* nav1 */
+.nav1{
+    width: 100%;
+    height: 35px;
+    background-color:lightgray;
+}
+
+.nav1sub{
+    padding-top: 8px;
+}
+
+.nav1 .red{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 100%;
+    float: left;
+    margin-left: 20px;
+}
+
+.nav1 .yellow{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border-radius: 100%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.nav1 .green{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 100%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.nav1 .nav1sub .searchbar{
+    margin-left: 500px;
+}
+
+.nav1 .nav1sub .search{
+    color:white;
+    font-size: small;
+    font-weight: 100;
+
+}
+.nav1 .nav1sub .searchtext{
+    text-align: center;
+}
+/* nav2 */
+.nav2{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(228,70,63,1.00);
+}
+.nav2 .text{
+    float: left;
+    margin-left: 50px;
+    color: rgba(162,235,63,1.00);
+}
+.nav2 .text h2{
+    color: rgba(230,241,63,1.00);
+    font-family:Copperplate Gothic ;
+    margin-top: -3px;
+    margin-bottom: -5px;
+    font-variant: small-caps;
+    text-shadow: 5px 5px 3px black;
+    letter-spacing: 8px;
+    word-spacing: 5px;
+}
+.nav2 .text h2::first-letter{
+    color: violet;
+    font-size: 40px;
+    font-family: Cooper BlkOul BT;
+}
+.nav2 .text p{
+    font-family: CosmicTwo;
+    margin-left: 20px;
+    
+}
+.nav2 .allinone{
+    width: 100%;
+    line-height: 30px;
+    margin-left: 850px;
+    padding:20px
+   
+   
+   
+}
+
+.nav2 .allinone a,.mainsearch{
+    float: left;
+    margin-left: 30px;
+    color: white;
+   
+}
+.nav2 .allinone a{
+    text-decoration: none;
+    padding-top: 5px;
+    padding: 0 15px;
+    border-radius: 15px;
+    transition: 1s;
+    
+   
+
+}
+.nav2 .allinone a:hover{
+    background-color: rgb(236, 218, 218);
+    color: rgba(16,104,254,1.00);
+   
+}
+.nav2 .allinone .mainsearch .search{
+    height: 30px;
+    text-align: center;
+   
+}
+/* nav3 */
+.nav3{
+    width: 100%;
+    line-height: 40px;
+    padding-top: 5px;
+    background-color: cornsilk;
+    border-bottom: 3px inset rgba(0,16,22,0.51);
+}
+
+.nav3 ul{
+    justify-content: space-around;
+    display: flex;
+}
+
+.nav3 ul li{
+        list-style-type: none;
+}
+
+.nav3 ul li a{
+    text-decoration: none;
+    color:teal;
+    
+}
+.nav3 ul li a:hover{
+    color: rgba(197,44,106,0.85);
+}

@@ -1,0 +1,50 @@
+
+ /* menubar */
+ .menubar{
+    /* background-color:rgb(252, 232, 230) ; */
+   
+   
+}
+.menubar li{
+    list-style-type:none;
+    display: inline;
+    text-align: justify;
+    line-height: 20px;
+    gap:30px;
+    margin-left: 30px;
+    padding: 5px;
+    transition: 3s;
+   
+}
+.list{
+
+   margin-top: -70px;
+   padding-bottom:15px;
+    
+}
+.list a{
+    text-decoration: none;
+}
+.list li:hover{
+    background-color: orange;
+    transition:background-color,color 2s;
+    color: white;
+    border-radius: 15px;
+    
+}
+.menubar .home{
+  margin-left: 650px;
+}
+.shopicon{
+  
+    
+    font-size: 30px;
+    margin-left: 30px;
+}
+.shop{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    background-color:rgb(90, 226, 90);
+}
+/* section1 */
